@@ -14,7 +14,6 @@ target 'DailyFeed' do
   pod 'PromiseKit'
   pod 'R.swift'
   pod 'Kingfisher'
-  pod 'PullToReach'
   
   target 'DailyFeedTests' do
     inherit! :search_paths
