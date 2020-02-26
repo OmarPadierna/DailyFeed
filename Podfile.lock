@@ -14,11 +14,11 @@ PODS:
   - R.swift (5.0.3):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.1)
-  - Realm (3.16.2):
-    - Realm/Headers (= 3.16.2)
-  - Realm/Headers (3.16.2)
-  - RealmSwift (3.16.2):
-    - Realm (= 3.16.2)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
 
 DEPENDENCIES:
   - DZNEmptyDataSet
@@ -26,10 +26,10 @@ DEPENDENCIES:
   - lottie-ios
   - PromiseKit
   - R.swift
-  - RealmSwift
+  - RealmSwift (~> 3.20.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - DZNEmptyDataSet
     - Kingfisher
     - lottie-ios
@@ -46,9 +46,9 @@ SPEC CHECKSUMS:
   PromiseKit: 97397236f9e9c443d5b70a941d49cad25160af7a
   R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
   R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
-  Realm: 0e73b4edeb5b6a90da3d83206883b2e34e00eb38
-  RealmSwift: a81e650171ef0a5f999df1ed8d39ba8d6fce88a4
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
 
-PODFILE CHECKSUM: 71e2b97ad4018eda39873b9f0e50595d6f4783f8
+PODFILE CHECKSUM: 969d48989057aa9681e31a704d12eb9eedf52f3f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
